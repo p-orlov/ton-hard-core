@@ -1,0 +1,40 @@
+{
+  "name": "ton-hard-core",
+  "version": "0.0.1",
+  "description": "Yet another TON typescript library",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "examples:transfer-jetton": "ts-node examples/transfer-jetton.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "ton",
+    "ton-client",
+    "ton-sdk",
+    "ton-types",
+    "ton-typescript"
+  ],
+  "author": "p-orlov",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ton/core": "^0.56.3",
+    "@ton/crypto": "^3.2.0",
+    "@ton/test-utils": "^0.4.2",
+    "@ton/ton": "^14.0.0",
+    "@tonconnect/ui-react": "^1.0.0-beta.6",
+    "bn.js": "^5.2.1",
+    "ton": "^12.1.5"
+  },
+  "devDependencies": {
+    "@ton/sandbox": "^0.20.0",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
