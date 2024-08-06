@@ -1,4 +1,5 @@
-module.exports = {
-  preset: "ts-jest",
-  testEnvironment: "node",
-};
+import { getJestProjectsAsync } from '@nx/jest';
+
+export default async () => ({
+  projects: await getJestProjectsAsync()
+});

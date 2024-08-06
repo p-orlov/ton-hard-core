@@ -9,14 +9,17 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "ESNext",
-    "module": "CommonJS",
-    "lib": ["ESNext", "dom"],
+    "module": "esnext",
+    "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "strictNullChecks": true,
     "baseUrl": ".",
     "resolveJsonModule": true,
-    "paths": {}
+    "paths": {
+      "@ton-hard-core/cell-builder": ["libs/cell-bulder/src/index.ts"],
+      "@ton-hard-core/nest-twa": ["libs/nest-twa/src/index.ts"]
+    }
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "tmp"]
 }

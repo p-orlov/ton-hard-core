@@ -1,0 +1,27 @@
+{
+  "name": "@ton-hard-core/nest-twa",
+  "version": "0.0.1",
+  "dependencies": {
+    "@nestjs/common": "^10.3.10",
+    "@nestjs/config": "^3.2.3",
+    "lodash": "4.17.21",
+    "tslib": "^2.3.0"
+  },
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "p-orlov",
+  "license": "MIT",
+  "description": "NestJS Telegram Web App Module",
+  "keywords": [
+    "telegram",
+    "telegram-web-app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-orlov/ton-hard-core.git"
+  }
+}
